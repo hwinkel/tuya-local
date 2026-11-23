@@ -358,3 +358,93 @@ entities:
         range:
           min: 7
           max: 75
+  - entity: sensor
+    name: Raw P01-P30
+    category: diagnostic
+    icon: "mdi:code-brackets"
+    hidden: true
+    dps:
+      - id: 101
+        type: string
+        optional: true
+        name: sensor
+  - entity: sensor
+    name: Raw P31-P60
+    category: diagnostic
+    icon: "mdi:code-brackets"
+    hidden: true
+    dps:
+      - id: 102
+        type: string
+        optional: true
+        name: sensor
+  - entity: sensor
+    name: Raw P61-P90
+    category: diagnostic
+    icon: "mdi:code-brackets"
+    hidden: true
+    dps:
+      - id: 103
+        type: string
+        optional: true
+        name: sensor
+  - entity: sensor
+    name: Raw P91-P120
+    category: diagnostic
+    icon: "mdi:code-brackets"
+    hidden: true
+    dps:
+      - id: 104
+        type: string
+        optional: true
+        name: sensor
+  - entity: sensor
+    name: Raw P121
+    category: diagnostic
+    icon: "mdi:code-brackets"
+    hidden: true
+    dps:
+      - id: 105
+        type: string
+        optional: true
+        name: sensor
+  - entity: sensor
+    name: Raw C01-C30
+    category: diagnostic
+    icon: "mdi:code-brackets"
+    hidden: true
+    dps:
+      - id: 106
+        type: string
+        optional: true
+        name: sensor
+  - entity: sensor
+    name: Raw C31-C56
+    category: diagnostic
+    icon: "mdi:code-brackets"
+    hidden: true
+    dps:
+      - id: 107
+        type: string
+        optional: true
+        name: sensor
+  - entity: sensor
+    name: Raw C57
+    category: diagnostic
+    icon: "mdi:code-brackets"
+    hidden: true
+    dps:
+      - id: 126
+        type: string
+        optional: true
+        name: sensor
+  - entity: sensor
+    name: Raw error summary
+    category: diagnostic
+    icon: "mdi:code-brackets"
+    hidden: true
+    dps:
+      - id: 108
+        type: string
+        optional: true
+        name: sensor
